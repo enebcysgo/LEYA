@@ -1,0 +1,18 @@
+
+*/
+#letraImportante:hover{
+    background: linear-gradient(to bottom right, #ff0000, #ff6666);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+
+#letraImportante, .letraNormal{
+   background: linear-gradient(to bottom right, black, #242729);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+
+.letraNormal{
+    font-size:25px; 
+    text-align: left;  
+}

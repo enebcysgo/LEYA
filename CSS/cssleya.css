@@ -1,0 +1,227 @@
+
+*/
+
+
+@import url(//db.onlinewebfonts.com/c/088f292cf151a6e496fc8cdc5441b3e3?family=Lovelo);
+
+@font-face {font-family: "Lovelo"; src: url("//db.onlinewebfonts.com/t/088f292cf151a6e496fc8cdc5441b3e3.eot"); src: url("//db.onlinewebfonts.com/t/088f292cf151a6e496fc8cdc5441b3e3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/088f292cf151a6e496fc8cdc5441b3e3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/088f292cf151a6e496fc8cdc5441b3e3.woff") format("woff"), url("//db.onlinewebfonts.com/t/088f292cf151a6e496fc8cdc5441b3e3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/088f292cf151a6e496fc8cdc5441b3e3.svg#Lovelo") format("svg"); }
+.letrapeque{
+    font-size:25px;   
+}
+
+body{
+    background: linear-gradient(to right, #B99239 0%, #CBB27A 100%);
+    margin: 0px;
+    padding: 0px;
+}
+
+a:visited, a:link {
+    text-decoration: none;
+    background: linear-gradient(to right, #B99239 0%, #CBB27A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+li{
+    background: linear-gradient(to right, #B99239 0%, #CBB27A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 2px;
+    line-height: 100px; 
+    font-size:18px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+header {
+    font-family: Lovelo, Georgia, serif;
+    border: 2px solid black;
+    background: linear-gradient(to bottom right, black, #242729);
+    
+}
+
+footer{  
+    background-color: #242729;
+    bottom: 0px;
+    color: grey;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+#vehiculos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: -30px;
+    
+}
+
+.elemento{ 
+    display:inline;
+    background: linear-gradient(to right, #B99239 0%, #CBB27A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align:center;
+
+
+}
+
+li a:hover, .dropdown:hover {
+    background-color: rgba(36, 39, 41, 0.3);
+    border-radius:10px;	
+}
+
+.dropdown {
+    display: inline-block;      
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #242729;
+    min-width: 50px;
+    border-radius:10px;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;    
+}
+
+.dropdown-content a:hover {
+    background-color: #242729;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h2,div{
+    text-align: center; 
+}
+
+h1{
+    color: #666666;
+    text-align: center;
+}
+table{
+    width: 100%;
+    border: 1px solid #000;
+    background-color: #242729;
+    color: white;
+    border-collapse: collapse;
+
+}
+
+caption{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+th,td{
+    background-color: #242729;
+    width: 20%;
+    text-align: center;
+    vertical-align: central;
+    border: 1px solid #000;
+    border-spacing: 0;
+    border-collapse: collapse;
+    color: white;
+    font-weight: bold;
+    
+
+}
+
+aside {
+    border-style: dotted; 
+    border-width: thin; 
+    margin-bottom: 1.2%;
+    margin-left: 1.2%;
+    margin-right:1.2%;
+    object-fit: cover;
+    padding: 1.2%; 
+    width: 1.3; 
+}
+
+aside img{
+    max-width:250px; 
+}
+        
+
+        aside section{
+            display: flex;
+            grid-template: auto auto / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            row-gap: 1.2%;
+            flex-wrap:wrap ;
+            column-gap: 1.2%;									
+            padding: 1.3%; 
+            width: 1.3; 
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+        }
+
+        #aside1{
+            grid-row: 1/2;
+            grid-column: 1/span 3;
+            margin-bottom: 1.2%; 
+        }
+        #aside2 {
+            grid-row: 1/2;
+            grid-column: 4/span 3; 
+            margin-bottom: 1.2%; 
+
+        }
+        #aside3 {
+            grid-row: 1/2;
+            grid-column: 7/span 3;
+            margin-bottom: 1.2%; 
+
+        }
+        #aside4 {
+            grid-row: 1/2;
+            grid-column: 10/span 3;
+            margin-bottom: 1.2%; 
+
+        }
+
+
+
+
+.oferta{
+    text-decoration: line-through;
+    color: #E40000;
+}
+
+.precio{
+    color: #00ff33;
+}
+
+#cajaCovid{
+    border: 1px solid red;
+    background-color: salmon;
+    margin-left: 37%;
+    margin-right: 37%;
+}
+
+#cajaEnvio{
+    text-align: center;
+    letter-spacing: 2px;
+    size: 30px;
+    font-weight: bold; 
+    background: linear-gradient(to bottom right, black, #242729);
+    border: 1px solid black;
+    background-color: #cccccc;
+    margin-left: 40%;
+    margin-right: 40%;
+}

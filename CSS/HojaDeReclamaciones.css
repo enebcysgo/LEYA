@@ -1,0 +1,29 @@
+
+*/
+label,legend{
+    color: black;
+
+}
+legend{
+    font-weight: bold;
+
+}
+
+form{
+    margin-bottom:5%;
+    
+}
+input[type=text],input[type=password],input[type=number],input[type=tel],select,input[type=email] {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(185,146,57) ;
+    border-color: #b99239;
+    border-radius: 4px;
+    
+}
+
+h2{
+    text-align: center;
+}

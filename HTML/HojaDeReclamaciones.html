@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>LEYA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel=StyleSheet HREF="../CSS/cssleya.css" TYPE="text/css">
+        <link rel=StyleSheet HREF="../CSS/HojaDeReclamaciones.css" TYPE="text/css">
+    </head>
+    <body>
+       <header>
+            <ul id="vehiculos">
+                <li><a href="./index.html"><img src="../img/logosinfondo.png" alt="logo" width="100" height="100"></a></li> 
+                <li class="elemento" ><a href="./coches.html">AUTOAK</a></li>  
+                <li class="elemento"><a href="./motos.html">MOTORRAK</a></li>  
+                <li class="elemento"><a href="./AutoCaravana.html">AUTOKARABANAK</a></li>   
+				<li class="elemento"><a href="./contacto.html">KONTAKTOA</a></li>  
+                <li class="elemento"><a href="./MapaDeImagenes.html">MAPA</a></li>  
+                <li class="elemento"><a href="./HojaDeReclamaciones.html">ERREKLAMAZIOAK</a></li> 
+                    </ul>
+                </li>  
+            </ul>
+        </header>
+        <h2> ERREKLAMAZIO ORRIA </h2>
+        
+            <fieldset>
+				<form action="http://www.formular-chef.com/Formular-Chef.cgi" method="post">
+				<input type="hidden" name="recipient" value="daw20enma@ikasle.leartik.eus">
+                <legend>Bidaltzailearen datuak</legend>
+                <label>DNI o NIF:</label><br>
+                <input type="text" required maxlength="9" placeholder="11111111A"><br>
+                <label>Izena:</label><br>
+                <input type="text" name="Nombre" placeholder="Nombre"><br>
+                <label>Abizena 1:</label><br>
+                <input type="text" name="Nombre" placeholder="Primer apellido"><br>
+                <label>Abizena 2:</label><br>
+                <input type="text" name="Nombre" placeholder="Segundo apellido"><br>              
+                <label>Email:</label>
+                <input type="email" required maxlength="40" placeholder="example@gmail.com"><br>
+                <label>Telefonoa:</label><br>
+                <input type="tel" name="Telefono" maxlength="9" placeholder="666666666"><br>
+                <label>Ibilgailua:</label><br>
+                <select name = "dropdown">
+                    <option value = "Coche" selected>Autoa</option>
+                    <option value = "Moto">Motorra</option>
+                    <option value = "Autocaravana">Autokarabana</option>
+                </select><br>
+                <label>Erreklamazioaren arrazoia:</label><br>
+                <textarea rows="8" required placeholder="Erreklamazioaren arrazoia"></textarea><br>
+                <input type="reset" value="Garbitu">
+                <input type="submit" value="Bidali">
+				</form>
+
+            </fieldset>
+        <br><br>
+        <footer>
+            C 2020-2021, LEYA.com
+        </footer>
+    </body>
+</html>
